@@ -17,10 +17,9 @@ import com.alibaba.fastjson.JSONObject;
  * @version 1.0.0
  */
 
-@ParentPackage("struts-default")
 @Namespace("/user")
-@Results({@Result(name = "success",location = "/jsp/success.jsp"),
-	@Result(name = "error",location = "/jsp/error.jsp")})
+@Results({@Result(name = "success",location = "/success.jsp"),
+	@Result(name = "error",location = "/error.jsp")})
 public class UserAction {
 	
 	private String name;
